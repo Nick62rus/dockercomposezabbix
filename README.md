@@ -54,15 +54,15 @@
 ## Как использовать
 
 1. **Клонируйте репозиторий**:
-   \```bash
+   ``` bash
    git clone https://your-repo-url.git
    cd your-repo-directory
-   \```
+   ```
 2. **Измените конфигурацию для агента в сервисе zabbix-agent на фактический ip zabbix-server, ZBX_SERVER_HOST**:
 3. **Запустите compose файл**
-   \```bash
+   ``` bash
    docker-compose up -d
-   \```
+   ```
 4. **Доступ к web интерфейсу**
    - Откройте браузер и перейдите по адресу http://localhost:8080.
    - Учетные данные по умолчанию:
